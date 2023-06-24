@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../static/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <style>
+      .button{
+        outline: none;
+        border: none;
+        padding: 5px 30px;
+        border-radius: 5px;
+        color: white;
+        background:#191dda;
+        display:inline-block;
+        line-height:30px;
+        margin:10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+        <img src="../static/images/logo1.png" height="120px" width="120px" alt="IPL">
+        <div class="navigation">
+          <a href="/register">signup</a>
+          <a href="/login">login</a>
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2 style="color:#3538e6">IPL SCORE PREDICTION<br><span></span></h2>
+          <p style="color:white">This is a machine learning project which can be used to predict the score of the first innings of IPL.
+                This can be used to predict the scores of the first innings based on the score of the current players and the number 
+                of players out and overs passed.</p>
+        </div>
+        <div class="na">
+          <a href='#about' class="button">More info</a>
+          <a href="/register" class="button">signup</a>
+          <a href="/login" class="button">login</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 style="color:#3538e6;">About Project</h2><br><br>
+      <p class="about-content" style="text-align: center; color:white;">
+        Since the dawn of the IPL in 2008, it has attracted viewers all around the globe. 
+        A high level of uncertainty and last moment nail biters has urged fans to watch the matches. 
+        Within a short period, IPL has become the highest revenue-generating league of cricket. 
+        In a cricket match, we often see the scoreline showing the probability of the team winning based 
+        on the current match situation. This prediction is usually done with the help of Data Analytics.
+        Before when there were no advancements in machine learning, the prediction was usually based on 
+        intuitions or some basic algorithms. The above picture clearly tells you how bad is taking run rate
+        as a single factor to predict the final score in a limited-overs cricket match. 
+
+      </p>
+      <br><br><br><br>
+    </section>
+    
+
+  </body>
+</html>
+
